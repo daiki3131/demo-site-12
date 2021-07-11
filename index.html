@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>indeed</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header-top d-flex pc">
+      <div class="header-left">
+        <h1 class="header-logo"><a href="#">indeed</a></h1>
+        <nav class="header-nav">
+          <ul class="header-ul">
+            <li class="header-li"><a href="#">求人検索</a></li>
+            <li class="header-li"><a href="#">企業クチコミ</a></li>
+            <li class="header-li"><a href="#">給与サーチ</a></li>
+          </ul>
+        </nav>
+      </div><!-- header-left -->
+      <div class="header-right">
+        <div class="logo_contents">
+          <div class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up" viewBox="0 0 16 16">
+              <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z" />
+            </svg>
+          </div>
+          <div class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+            </svg>
+          </div>
+          <div class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg>
+          </div>
+        </div><!-- logo_contents -->
+        <div class="link_wrap"><a href="#">求人広告掲載</a></div><!-- link_wrap -->
+      </div><!-- header-right -->
+    </div><!-- header-top pc -->
+    <div class="header-top d-flex sp">
+      <div class="header-left">
+        <h1 class="header-logo"><a href="#">indeed</a></h1>
+      </div><!-- header-left -->
+      <div class="header-right">
+        <div id="open-btn" class="openBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div><!-- header-right -->
+      <div id="sp-menu" class="sp-menu">
+        <h1 class="header-logo"><a href="#">indeed</a></h1>
+        <nav class="header-nav">
+          <ul class="header-ul">
+            <li class="header-li"><a href="#">求人検索</a></li>
+            <li class="header-li"><a href="#">企業クチコミ</a></li>
+            <li class="header-li"><a href="#">給与サーチ</a></li>
+          </ul>
+        </nav><!-- header-nav -->
+        <div class="logo_contents">
+          <div class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-menu-up" viewBox="0 0 16 16">
+              <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793l1.853 1.854zM1 9V6h14v3H1zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2h14zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v2zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5zm0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5z" />
+            </svg>
+          </div>
+          <div class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+              <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
+            </svg>
+          </div>
+          <div class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+              <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+            </svg>
+          </div>
+        </div><!-- logo_contents -->
+      </div><!-- sp-menu -->
+    </div><!-- header-top sp -->
+    <div class="header-search">
+      <div class="container">
+        <div class="input_wrap">
+          <span class="title">キーワード</span>
+          <input type="search" name="search" placeholder="職種、キーワード、会社名など">
+          <span class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+          </span>
+        </div><!-- input_wrap -->
+        <div class="input_wrap">
+          <span class="title">勤務地</span>
+          <input type="search" name="search" placeholder="大阪府">
+          <span class="logo_wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z" />
+            </svg>
+          </span>
+        </div><!-- input_wrap -->
+        <button class="search-btn" type="submit" name="search" value="求人検索">求人検索</button><!-- search-btn -->
+      </div>
+      <p class="first-txt"><a href="#" class="companies">求人掲載をご検討の企業様</a>-indeed で始めましょう</p><!-- first-txt -->
+      <p class="second-txt"><a href="#">仕事さがしにサーチあれ（CM 特設サイト）</a></p><!-- second-txt -->
+    </div><!-- header-search -->
+  </header>
+
+  <main class="main">
+    <article class="article">
+      <div class="history">
+        <div class="history-title_wrap">
+          <h2 class="h2-title">最近の検索履歴</h2>
+          <a class="link" href="#">編集する</a>
+        </div><!-- history-title_wrap -->
+        <div class="history-list_wrap">
+          <ul class="history-ul">
+            <li class="history-li"><a href="#"><span class="txt">Web 更新 - 大阪府</span><span class="new-job">7,269件の新着求人</span></a></li>
+            <li class="history-li"><a href="#">Web 更新 - 大阪府 八尾市</a></li>
+            <li class="history-li"><a href="#">Web更新作業 - 大阪府 八尾市</a></li>
+            <li class="history-li"><a href="#">Web 更新作業 - 大阪府 八尾市</a></li>
+            <li class="history-li"><a href="#">Web 更新作業 - 大阪</a></li>
+            <li class="history-li"><a href="#"><span class="txt">Web 更新作業</span><span class="new-job">17件の新着求人</span></a></li>
+            <li class="history-li"><a href="#"><span class="txt">Web 更新 - 大阪府 八尾市</span><span class="new-job">51件の新着求人</span></a></li>
+            <li class="history-li"><a href="#">Web コンテンツ 制作 更新 - 大阪府 羽曳野市</a></li>
+            <li class="history-li"><a href="#">パーソルエクセルHR web コーディング - 大阪府</a></li>
+            <li class="history-li"><a href="#">パーソルエクセルHR - 大阪府</a></li>
+          </ul>
+        </div><!-- history-list_wrap -->
+      </div><!-- container -->
+    </article>
+    <div class="bg-color-white"></div>
+    <div class="bg-color-brown"></div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-guide">
+      <p class="txt">キャリアガイド - 求人情報の閲覧 - 年収 - Indeed イベント - 人材募集 - ブログ - すべての国を見る - Indeed について - ヘルプセンター</p>
+    </div>
+    <small class="copyright">© 2021 Indeed - Indeed におけるアクセシビリティ - プライバシーセンター - Cookie - プライバシー - 利用規約</small>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
